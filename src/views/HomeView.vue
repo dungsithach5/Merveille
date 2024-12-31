@@ -53,6 +53,7 @@ import 'swiper/swiper-bundle.css';
       <img 
         src="https://boucherie.vamtam.com/wp-content/uploads/2023/10/GettyImages-1185419868-1024x710.jpg" 
         alt="Catering Image"
+        class="pl-3 pb-3 border-l-2 border-b-2 border-[#CF4D2D]"
       />
     </div>
 
@@ -82,6 +83,7 @@ import 'swiper/swiper-bundle.css';
       <img 
         src="https://boucherie.vamtam.com/wp-content/uploads/2023/10/GettyImages-598223378-1024x710.jpg" 
         alt="Catering Image"
+        class="pr-3 pb-3 border-r-2 border-b-2 border-[#CF4D2D]"
       />
     </div>
 

@@ -1,6 +1,8 @@
 <script setup>
 import NavBar from '../components/Navbar.vue';
 import Footer from '../components/Footer.vue';
+import Swiper from '../components/Swiper.vue';
+import 'swiper/swiper-bundle.css';
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
 
@@ -118,5 +120,9 @@ onMounted(async () => {
         </router-link>
         </div>
     </div>
+
+    <!-- Swiper Section  -->
+    <Swiper />
+
     <Footer />
 </template>

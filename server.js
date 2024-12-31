@@ -3,9 +3,9 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import connectDB from './config/db.js';
-import foodRoute from './routes/foodRoute.js';
+import dinnerRoute from './routes/dinnerRoute.js';
 import lunchRouter from './routes/lunchRoute.js';
-import beveragesRoute from './routes/beveragesRoute.js';
+import wineRoute from './routes/wineRoute.js';
 import dessertsRoute from './routes/dessertsRoute.js';
 import reservationRoute from './routes/reservationRoute.js';
 
@@ -21,9 +21,9 @@ app.use(express.json());
 connectDB();
 
 // Routes
-app.use('/api/foods', foodRoute);
+app.use('/api/dinners', dinnerRoute);
 app.use('/api/lunch', lunchRouter);
-app.use('/api/beverages', beveragesRoute);
+app.use('/api/wines', wineRoute);
 app.use('/api/desserts', dessertsRoute);
 app.use('/api/reservation', reservationRoute);
 

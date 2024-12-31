@@ -18,7 +18,7 @@ const filterData = () => {
   const categoryMap = {
     'dinner': Dinnerdata.value,
     'lunch': LunchData.value,
-    'wine list': WinesData.value,
+    'winelist': WinesData.value,
     'desserts': DessertsData.value,
   };
 
@@ -31,9 +31,9 @@ const filterData = () => {
 onMounted(async () => {
   try {
     const [responseDinner, responseLunch, responseWines, responseDesserts] = await Promise.all([
-      axios.get("http://localhost:3000/api/foods"),
+      axios.get("http://localhost:3000/api/dinners"),
       axios.get("http://localhost:3000/api/lunch"),
-      axios.get("http://localhost:3000/api/beverages"),
+      axios.get("http://localhost:3000/api/wines"),
       axios.get("http://localhost:3000/api/desserts")
     ]);
     Dinnerdata.value = responseDinner.data;
@@ -76,7 +76,7 @@ onMounted(async () => {
             <li>
                 <button 
                 class="font-medium text-base"
-                @click="categoryFilter = 'wine list'; filterData()"
+                @click="categoryFilter = 'winelist'; filterData()"
                 >
                 Wine List
                 </button>
@@ -101,7 +101,7 @@ onMounted(async () => {
         >
         <router-link :to="{ name: 'productdetail', params: { id: item._id } }">
         <a href="#">
-            <img class="" :src="item.img" alt="" />
+            <img class="h-[630px] object-cover" :src="item.img" alt="" />
         </a>
         <div class="text-left">
             <a href="#">

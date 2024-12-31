@@ -2,10 +2,10 @@
     <nav class="text-black h-44">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-5">
         <a href="" class="flex items-center space-x-3">
-          <span class="font-medium text-base">20 W 50th St, France, (+84) 694-1644</span>
+          <span class="font-semibold text-base">20 W 50th St, France, (+84) 694-1644</span>
         </a>
         <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <a href="" type="button" class="font-medium text-base">
+            <a href="" type="button" class="font-semibold text-base">
             Reservation
             </a>
             <img src="../assets/imgs/down-right.png" alt="" class="h-[17px] mt-[2px] ml-[5px]"> 
@@ -26,27 +26,22 @@
       <div class="w-full md:w-auto" id="navbar-default">
         <ul class="flex items-center justify-center p-4 md:p-0 mt-4 md:flex-row md:space-x-20 md:mt-0">
           <li>
-            <router-link to="/" class="font-medium text-base">Home</router-link>
+            <router-link to="/" class="font-semibold text-base">Home</router-link>
           </li>
           <li>
-            <router-link to="/menus" class="font-medium text-base">Menus</router-link>
+            <router-link to="/menus" class="font-semibold text-base">Menus</router-link>
           </li>
           <li>
-            <router-link to="/privateevents" class="font-medium text-base">Private events</router-link>
+            <router-link to="/privateevents" class="font-semibold text-base">Private events</router-link>
           </li>
           <li>
-            <router-link to="/aboutus" class="font-medium text-base">About us</router-link>
+            <router-link to="/aboutus" class="font-semibold text-base">About us</router-link>
           </li>
           <li>
-            <router-link to="/order" class="font-medium text-base">Order</router-link>
+            <router-link to="/order" class="font-semibold text-base">Order</router-link>
           </li>
         </ul>
       </div>
     </nav>
 </template>
-  
-  <script>
-  export default {
-    name: 'Navbar',
-  };
-  </script>
+

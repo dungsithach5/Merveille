@@ -1,14 +1,12 @@
 import mongoose from 'mongoose';
 
-const BeveragesSchema = new mongoose.Schema({
+const WineSchema = new mongoose.Schema({
     img: { type: String, required: true },
     name: { type: String, required: true },
-    japanese: { type: String, required: true },
     description: { type: String, required: true },
-    address: { type: String, required: true },
     price: { type: String, required: true },
 },{timestamps: true});
 
-const beverage = mongoose.model('Beverages', BeveragesSchema);
+const wine = mongoose.model('Wine', WineSchema);
 
-export default beverage;
+export default wine;

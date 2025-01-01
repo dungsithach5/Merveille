@@ -1,6 +1,7 @@
 <script setup>
 import NavBar from '../components/Navbar.vue';
 import Footer from '../components/Footer.vue';
+import Booking from '@/components/Booking.vue';
 import Swiper from '../components/Swiper.vue';
 import 'swiper/swiper-bundle.css';
 import { ref, onMounted } from 'vue';
@@ -105,10 +106,10 @@ onMounted(async () => {
         <a href="#">
             <img class="h-[630px] object-cover" :src="item.img" alt="" />
         </a>
-        <div class="text-left">
+        <div class="text-left flex justify-between pt-3">
             <a href="#">
             <h5
-                class="SPfont mt-3 text-2xl font-medium  text-black"
+                class="SPfont text-2xl font-medium  text-black"
             >
                 {{ item.name }}
             </h5>
@@ -123,6 +124,9 @@ onMounted(async () => {
 
     <!-- Swiper Section  -->
     <Swiper />
+
+    <!-- Booking -->
+    <Booking />
 
     <Footer />
 </template>

@@ -60,7 +60,7 @@ onMounted(async () => {
         <ul class="flex items-center justify-center p-4 md:p-0 mt-4 md:flex-row md:space-x-20 md:mt-0">
             <li>
                 <button 
-                class="font-medium text-base"
+                class="font-medium text-base hover:text-[#CF4D2D] transform transition duration-300 ease-in-out focus:text-[#CF4D2D]"
                 @click="categoryFilter = 'dinner'; filterData()"
                 >
                 Dinner
@@ -68,7 +68,7 @@ onMounted(async () => {
             </li>
             <li>
                 <button 
-                class="font-medium text-base"
+                class="font-medium text-base hover:text-[#CF4D2D] transform transition duration-300 ease-in-out focus:text-[#CF4D2D]"
                 @click="categoryFilter = 'lunch'; filterData()"
                 >
                 Lunch
@@ -77,7 +77,7 @@ onMounted(async () => {
             <img src="../assets/imgs/star.png" alt="">
             <li>
                 <button 
-                class="font-medium text-base"
+                class="font-medium text-base hover:text-[#CF4D2D] transform transition duration-300 ease-in-out focus:text-[#CF4D2D]"
                 @click="categoryFilter = 'winelist'; filterData()"
                 >
                 Wine List
@@ -85,7 +85,7 @@ onMounted(async () => {
             </li>
             <li>
                 <button
-                class="font-medium text-base"
+                class="font-medium text-base hover:text-[#CF4D2D] transform transition duration-300 ease-in-out focus:text-[#CF4D2D]"
                 @click="categoryFilter = 'desserts'; filterData()"
                 >
                 Dessert

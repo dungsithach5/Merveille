@@ -207,6 +207,9 @@
     <!-- Swiper Section -->
     <Swiper />
 
+    <!-- Booking Section -->
+    <Booking />
+
   <Footer />
 </template>
 
@@ -215,6 +218,7 @@ import { ref, onMounted } from 'vue';
 import axios from 'axios';
 import NavBar from '../components/Navbar.vue';
 import Footer from '../components/Footer.vue';
+import Booking from '@/components/Booking.vue';
 import Swiper from '../components/Swiper.vue';
 import 'swiper/swiper-bundle.css';
 

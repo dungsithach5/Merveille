@@ -1,4 +1,4 @@
-# vue_restaurant
+# Merveille restaurant
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -27,3 +27,18 @@ npm run dev
 ```sh
 npm run build
 ```
+
+## Team Members
+
+- **Huynh Anh Tien** - Team Leader
+- **Dang Huu Hoc** - Team Member
+- **Do Huy Nguyen** - Team Member
+- **Dang Hoang Hai** - Team Member
+
+## Features
+
+### Filter
+- Allows users to filter the restaurant menu based on various criteria category
+
+### Booking
+- Enables users to book a table at the restaurant through the application, with options to select date, time, and number of guests.

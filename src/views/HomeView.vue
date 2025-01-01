@@ -20,11 +20,13 @@ import 'swiper/swiper-bundle.css';
     />
 
     <!-- Welcome -->
-    <div class="max-w-screen-lg mx-auto flex flex-col my-20">
+    <div class="max-w-screen-xl mx-auto flex flex-col my-20">
       <h1 class="SPfont text-center text-6xl text-black">Welcome to Merveille</h1>
       <h2 class="text-center text-base text-[#5D5D5D] my-6">
         Welcome to Merveille, where we bring you the refined flavors of French cuisine.
         We hope you enjoy a wonderful and unforgettable dining experience with us!
+        Our restaurant is committed to providing you with the highest quality ingredients and exceptional service. 
+        Whether you're here for a casual meal or a special occasion, we strive to make every visit memorable.
       </h2>
       <img src="https://images.unsplash.com/photo-1484659619207-9165d119dafe?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
     </div>

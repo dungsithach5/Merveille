@@ -13,18 +13,14 @@ router.route("/:id")
 
 router.post('/reservation', async (req, res) => {
     try {
-        const { name, branch, email, phoneNumber, adult, children, date, time, note } = req.body;
+        const { name, email, date, time, partysize } = req.body;
 
         const newReservation = new Reservation({
             name,
-            branch,
             email,
-            phoneNumber,
-            adult,
-            children,
             date,
             time,
-            note
+            partysize,
         });
 
         await newReservation.save();

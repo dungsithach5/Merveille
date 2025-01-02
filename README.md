@@ -42,3 +42,7 @@ npm run build
 
 ### Booking
 - Enables users to book a table at the restaurant through the application, with options to select date, time, and number of guests.
+
+### Login
+- Provides an admin login functionality to access the admin panel.
+- Admins can log in using their credentials to manage reservations and other administrative tasks.

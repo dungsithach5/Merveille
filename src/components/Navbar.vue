@@ -204,7 +204,7 @@ const submitReservation = async () => {
           </svg>
           <span class="sr-only">Check icon</span>
       </div>
-      <div class="ms-3 text-sm font-medium">You have successfully booked a table.</div>
+      <div class="ms-3 text-sm font-medium">You have successfully booked a reservation.</div>
       <button type="button" class="ms-auto -mx-1.5 -my-1.5 bg-white text-gray-400 hover:text-gray-900 rounded-lg p-1.5 hover:bg-gray-100 inline-flex items-center justify-center h-8 w-8" data-dismiss-target="#toast-success" aria-label="Close">
           <span class="sr-only">Close</span>
           <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">

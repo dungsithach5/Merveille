@@ -93,7 +93,7 @@ import Footer from '../components/Footer.vue';
       <div class="space-y-1">
         <img 
           class="w-96 h-96 rounded object-cover" 
-          src="https://i.pinimg.com/736x/fc/9b/db/fc9bdbb1c8c4697c82fde291371b05bb.jpg" 
+          src="../assets/avatar/avatarHDH.jpg" 
           alt="Default avatar"
         />
         <h1 class="text-center text-2xl font-medium">Hoàng Đăng Hải</h1>

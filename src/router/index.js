@@ -25,6 +25,16 @@ const router = createRouter({
       component: () => import('../views/ProductDetailView.vue'),
       props:true
     },
+    {
+      path: '/admin',
+      name: 'admin',
+      component: () => import('../views/AdminView.vue'),
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: () => import('../views/LoginView.vue'),
+    },
   ],
   scrollBehavior(to, from, savedPosition) {
     return { top: 0 };

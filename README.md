@@ -1,6 +1,6 @@
 # Merveille restaurant
 
-This template should help get you started developing with Vue 3 in Vite.
+A restaurant booking website is an online platform that allows users to reserve tables at restaurants. It streamlines the reservation process for customers and helps restaurants manage their bookings efficiently.
 
 ## Recommended IDE Setup
 
